@@ -6,6 +6,9 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
+import javax.inject.Singleton;
+
+@Singleton
 @Dao
 public interface GroceryDao {
     @Query("SELECT * FROM groceryitem WHERE uid = :id")
