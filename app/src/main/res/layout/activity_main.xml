@@ -14,43 +14,48 @@
         android:paddingTop="36dp"
         android:paddingBottom="16dp"
         android:orientation="vertical" >
-        <TextView
+        <EditText
             android:layout_width="250dp"
             android:layout_height="50dp"
-            android:hint="@string/calories" />
+            android:hint="@string/total_calories"
+            android:id="@+id/total_calories"/>
 
         <Button
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="@string/save_calories" />
+            android:text="@string/save_calories"
+            android:id="@+id/save_calories"/>
 
-        <TextView
+        <EditText
             android:layout_width="250dp"
             android:layout_height="50dp"
-            android:hint="@string/dollars" />
+            android:hint="@string/total_dollars"
+            android:id="@+id/total_dollars"/>
         <Button
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="@string/save_dollars" />
+            android:text="@string/save_dollars"
+            android:id="@+id/save_dollars"/>
 
-        <TextView
+        <EditText
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_weight="1"
             android:gravity="top"
-            android:hint="@string/search" />
+            android:hint="@string/search"
+            android:id="@+id/search_txt"/>
+
         <Button
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text="@string/search" />
+            android:text="@string/search_btn"
+            android:id="@+id/search_btn"/>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:paddingBottom="16dp" />
+
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
