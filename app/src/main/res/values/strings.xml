@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NutritionOnABudget</string>
+    <string name="save_calories">Save</string>
+    <string name="search">Search</string>
+    <string name="dollars">Dollar Budget</string>
+    <string name="calories">Calorie Budget</string>
+    <string name="save_dollars">Save</string>
 </resources>
