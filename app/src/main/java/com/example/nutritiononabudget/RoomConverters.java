@@ -4,6 +4,9 @@ import androidx.room.TypeConverter;
 
 import java.math.BigDecimal;
 
+import javax.inject.Singleton;
+
+@Singleton
 public class RoomConverters {
     @TypeConverter
     public java.math.BigDecimal fromLong(Long value) {
